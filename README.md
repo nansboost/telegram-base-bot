@@ -29,9 +29,9 @@ Bot Telegram modular berbasis Node.js (CommonJS) dengan fitur:
 Misal kamu sudah punya folder di Desktop:
 
 ```bash
-cd "C:\Users\nansb\Desktop"
-# folder telebot-clean sudah ada di sini
-cd telebot-clean
+git clone https://github.com/nansboost/telegram-base-bot
+
+cd telegram-base-bot
 ```
 
 Install dependency:
@@ -99,10 +99,6 @@ Jadi selagi API key valid dan punya akses ke model yang digunakan (`openai/gpt-o
 Dari folder project:
 
 ```bash
-git clone https://github.com/
-
-cd telebot-clean
-npm install
 npm start
 ```
 
